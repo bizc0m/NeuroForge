@@ -26,6 +26,7 @@ main {
   grid-template-columns: minmax(240px, 42vw) 1fr;
   align-items: center;
   gap: 24px;
+  text-align: center;
 }
 
 .logo {
@@ -47,6 +48,7 @@ h1 {
   margin: 0;
   letter-spacing: .18em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .red { color: var(--red); }
@@ -54,6 +56,7 @@ h1 {
 nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
   padding: 28px 0 0;
 }
@@ -62,16 +65,18 @@ nav {
   border-top: 2px solid var(--red);
   border-bottom: 2px solid var(--red);
   padding: 28px 0;
+  text-align: center;
 }
 
 .band h2 {
   max-width: 900px;
-  margin: 0 0 12px;
+  margin: 0 auto 12px;
   font-size: clamp(1.35rem, 3vw, 3rem);
 }
 
 .sigil {
   display: flex;
+  justify-content: center;
   gap: 12px;
   padding: 28px 0 0;
 }
