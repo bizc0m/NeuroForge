@@ -7,6 +7,7 @@ required=(
   philosophy/manifesto.md philosophy/taillandier.md philosophy/principles.md
   templates/README.template.md prompts/create-app.md scripts/sync-assets.sh
   docs/index.html
+  docs/assets/logo/neuro-forge-logo-512.png
 )
 
 for path in "${required[@]}"; do
@@ -18,7 +19,10 @@ for size in 32 64 128 256 512 1024; do
     echo "missing logo export: $size" >&2
     exit 1
   }
+  [[ -f "docs/assets/logo/neuro-forge-logo-${size}.png" ]] || {
+    echo "missing docs logo asset: $size" >&2
+    exit 1
+  }
 done
 
 echo "ok"
-
