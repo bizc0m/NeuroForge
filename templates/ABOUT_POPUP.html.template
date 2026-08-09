@@ -1,0 +1,153 @@
+<button class="nf-about-button" type="button" data-nf-about-open>
+  About
+</button>
+
+<dialog class="nf-about-dialog" data-nf-about-dialog aria-labelledby="nf-about-title">
+  <article class="nf-about-panel">
+    <button class="nf-about-close" type="button" data-nf-about-close aria-label="Close About">
+      ×
+    </button>
+
+    <img class="nf-about-logo" src="{{LOGO_SRC}}" alt="Neuro Forge logo">
+
+    <h2 id="nf-about-title">{{PROJECT_NAME}}</h2>
+    <p class="nf-about-purpose">{{SHORT_DESCRIPTION}}</p>
+
+    <dl>
+      <div>
+        <dt>Purpose</dt>
+        <dd>{{PRIMARY_PURPOSE}}</dd>
+      </div>
+      <div>
+        <dt>For</dt>
+        <dd>{{TARGET_USER}}</dd>
+      </div>
+      <div>
+        <dt>Focus</dt>
+        <dd>{{CORE_FUNCTION}}</dd>
+      </div>
+      <div>
+        <dt>Limits</dt>
+        <dd>{{NON_GOAL_1}}. {{NON_GOAL_2}}.</dd>
+      </div>
+    </dl>
+
+    <p class="nf-about-meta">
+      Version {{VERSION}} · {{LICENSE}} · <a href="{{REPOSITORY_URL}}">Repository</a>
+    </p>
+
+    <p class="nf-about-signature">
+      FORGED FOR ATYPICAL THINKERS.<br>
+      <span>THEN, GREAT RESULTS.</span>
+    </p>
+  </article>
+</dialog>
+
+<style>
+  :root {
+    --nf-black: #050505;
+    --nf-white: #f7f3ea;
+    --nf-red: #b11226;
+  }
+
+  .nf-about-button {
+    color: var(--nf-white);
+    background: var(--nf-black);
+    border: 1px solid var(--nf-red);
+    padding: 10px 14px;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .nf-about-dialog {
+    width: min(92vw, 560px);
+    color: var(--nf-white);
+    background: var(--nf-black);
+    border: 2px solid var(--nf-white);
+    box-shadow: inset 0 0 0 3px var(--nf-red);
+    padding: 0;
+  }
+
+  .nf-about-dialog::backdrop {
+    background: rgb(0 0 0 / 78%);
+  }
+
+  .nf-about-panel {
+    position: relative;
+    display: grid;
+    gap: 18px;
+    padding: 28px;
+    text-align: center;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  .nf-about-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    color: var(--nf-white);
+    background: transparent;
+    border: 1px solid var(--nf-red);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .nf-about-logo {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .nf-about-panel h2,
+  .nf-about-panel p {
+    margin: 0;
+  }
+
+  .nf-about-purpose,
+  .nf-about-signature {
+    text-transform: uppercase;
+    letter-spacing: .14em;
+  }
+
+  .nf-about-panel dl {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .nf-about-panel dt {
+    color: var(--nf-red);
+    text-transform: uppercase;
+  }
+
+  .nf-about-panel dd {
+    margin: 4px 0 0;
+  }
+
+  .nf-about-meta,
+  .nf-about-meta a {
+    color: var(--nf-white);
+  }
+
+  .nf-about-signature span {
+    color: var(--nf-red);
+  }
+</style>
+
+<script>
+  (() => {
+    const dialog = document.querySelector("[data-nf-about-dialog]");
+    const open = document.querySelector("[data-nf-about-open]");
+    const close = document.querySelector("[data-nf-about-close]");
+
+    if (!dialog || !open || !close) return;
+
+    open.addEventListener("click", () => dialog.showModal());
+    close.addEventListener("click", () => dialog.close());
+  })();
+</script>
+
