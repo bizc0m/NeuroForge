@@ -120,7 +120,81 @@ a {
 
 figcaption { color: var(--red); }
 
+.apps-page {
+  min-height: 100vh;
+}
+
+.apps-head {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.back-link {
+  justify-self: start;
+}
+
+.apps-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border: 1px solid var(--red);
+}
+
+.apps-head p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+.apps-list {
+  display: grid;
+  gap: 12px;
+  max-width: 1180px;
+  margin: 34px auto 0;
+}
+
+.app-row {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid var(--white);
+  background: rgb(255 255 255 / 4%);
+}
+
+.app-row strong {
+  display: block;
+  color: var(--white);
+  font-size: 1.08rem;
+}
+
+.app-row span {
+  display: block;
+  margin-top: 4px;
+  color: rgb(247 243 234 / 72%);
+  line-height: 1.4;
+}
+
+.app-row nav {
+  padding: 0;
+  justify-content: end;
+}
+
+.apps-signature {
+  margin: 28px 0 0;
+  color: var(--red);
+  text-align: center;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; }
   main { padding: 20px; border-width: 4px; }
+  .app-row { grid-template-columns: 1fr; }
+  .app-row nav { justify-content: start; }
 }
