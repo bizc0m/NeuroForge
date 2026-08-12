@@ -192,9 +192,103 @@ figcaption { color: var(--red); }
   text-transform: uppercase;
 }
 
+.project-page {
+  display: grid;
+  gap: 30px;
+}
+
+.project-hero {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.project-logo {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  border: 1px solid var(--red);
+}
+
+.project-kicker {
+  margin: 0;
+  color: var(--red);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.project-subtitle {
+  max-width: 740px;
+  margin: 0;
+  color: rgb(247 243 234 / 78%);
+  line-height: 1.5;
+}
+
+.project-actions {
+  padding-top: 8px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-panel {
+  min-height: 190px;
+  padding: 18px;
+  border: 1px solid var(--white);
+  background: rgb(255 255 255 / 4%);
+}
+
+.project-panel h2 {
+  margin: 0 0 12px;
+  color: var(--red);
+  font-size: 1rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.project-panel p {
+  margin: 0 0 10px;
+  line-height: 1.55;
+}
+
+.project-panel dl {
+  margin: 0;
+}
+
+.project-panel div {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(247 243 234 / 20%);
+}
+
+.project-panel dt {
+  color: rgb(247 243 234 / 62%);
+}
+
+.project-panel dd {
+  margin: 0;
+}
+
+.project-signature {
+  color: var(--red);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; }
   main { padding: 20px; border-width: 4px; }
   .app-row { grid-template-columns: 1fr; }
   .app-row nav { justify-content: start; }
+  .project-grid { grid-template-columns: 1fr; }
+  .project-panel div { grid-template-columns: 1fr; gap: 4px; }
 }

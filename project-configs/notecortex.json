@@ -1,0 +1,30 @@
+{
+  "slug": "notecortex",
+  "name": "NoteCortex",
+  "status": "active",
+  "type": "macOS knowledge and agenda app",
+  "defaultLanguage": "fr-FR",
+  "supportedLanguages": ["fr-FR", "en-US"],
+  "github": {
+    "url": "https://github.com/bizc0m/NoteCortex",
+    "visibility": "private"
+  },
+  "links": {
+    "page": "https://bizc0m.github.io/NeuroForge/projects/notecortex.html",
+    "app": "file:///Users/JOB/%23DEV/01-projets/notecortex/mac/dist/NoteCortex.app",
+    "localRepo": "file:///Users/JOB/%23DEV/01-projets/notecortex",
+    "localFolder": "file:///Users/JOB/%23DEV/01-projets/notecortex"
+  },
+  "about": {
+    "signature": "FORGED FOR ATYPICAL THINKERS. by NeuroForge",
+    "purpose": "Unifier capture, agenda et organisation cognitive dans une interface macOS rapide.",
+    "audience": "Utilisateurs qui structurent leurs notes, taches et contextes de travail localement.",
+    "function": "Centralise la saisie, la recherche, les vues agenda et les notes de calendrier.",
+    "limits": "Le repo GitHub public n'est pas expose; les liens locaux restent lies a la machine de production."
+  },
+  "docs": {
+    "autoReadme": true,
+    "autoAbout": true,
+    "autoLocalization": true
+  }
+}

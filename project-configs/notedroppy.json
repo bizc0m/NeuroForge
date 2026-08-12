@@ -1,0 +1,30 @@
+{
+  "slug": "notedroppy",
+  "name": "NoteDroppy",
+  "status": "active",
+  "type": "macOS capture utility",
+  "defaultLanguage": "fr-FR",
+  "supportedLanguages": ["fr-FR", "en-US"],
+  "github": {
+    "url": "https://github.com/bizc0m/NoteDroppy",
+    "visibility": "public"
+  },
+  "links": {
+    "page": "https://bizc0m.github.io/NeuroForge/projects/notedroppy.html",
+    "app": "file:///Applications/NoteDroppy.app",
+    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NoteDroppy",
+    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NoteDroppy"
+  },
+  "about": {
+    "signature": "FORGED FOR ATYPICAL THINKERS. by NeuroForge",
+    "purpose": "Capturer rapidement texte, liens et contexte vers les notes de travail.",
+    "audience": "Utilisateurs qui veulent envoyer une information au bon endroit sans casser leur flux.",
+    "function": "Expose une app locale de capture avec liens directs vers l'app, le dossier et le repo.",
+    "limits": "Les liens file:// sont valides localement et peuvent etre bloques depuis une page HTTPS selon le navigateur."
+  },
+  "docs": {
+    "autoReadme": true,
+    "autoAbout": true,
+    "autoLocalization": true
+  }
+}
