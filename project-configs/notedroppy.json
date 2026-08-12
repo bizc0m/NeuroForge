@@ -11,9 +11,10 @@
   },
   "links": {
     "page": "https://bizc0m.github.io/NeuroForge/projects/notedroppy.html",
-    "app": "file:///Applications/NoteDroppy.app",
-    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NoteDroppy",
-    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NoteDroppy"
+    "release": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy/releases/NoteDroppy-v3.0.zip",
+    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
+    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
+    "logo": "docs/assets/apps/notedroppy-logo.png"
   },
   "about": {
     "signature": "FORGED FOR ATYPICAL THINKERS. by NeuroForge",

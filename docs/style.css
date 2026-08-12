@@ -211,6 +211,11 @@ figcaption { color: var(--red); }
   border: 1px solid var(--red);
 }
 
+.app-logo {
+  padding: 8px;
+  background: rgb(247 243 234 / 8%);
+}
+
 .project-kicker {
   margin: 0;
   color: var(--red);

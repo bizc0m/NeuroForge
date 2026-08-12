@@ -6,14 +6,15 @@
   "defaultLanguage": "fr-FR",
   "supportedLanguages": ["fr-FR", "en-US"],
   "github": {
-    "url": "https://github.com/bizc0m/NoteCortex",
+    "url": null,
     "visibility": "private"
   },
   "links": {
     "page": "https://bizc0m.github.io/NeuroForge/projects/notecortex.html",
-    "app": "file:///Users/JOB/%23DEV/01-projets/notecortex/mac/dist/NoteCortex.app",
-    "localRepo": "file:///Users/JOB/%23DEV/01-projets/notecortex",
-    "localFolder": "file:///Users/JOB/%23DEV/01-projets/notecortex"
+    "app": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex/mac/dist/NoteCortex.app",
+    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
+    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
+    "logo": "docs/assets/apps/notecortex-logo.png"
   },
   "about": {
     "signature": "FORGED FOR ATYPICAL THINKERS. by NeuroForge",
