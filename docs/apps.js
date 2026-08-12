@@ -12,7 +12,7 @@
     entries.forEach((entry) => { entry.hidden = false; });
     tagButtons.forEach((button) => { button.setAttribute('aria-pressed', 'false'); });
     statusButtons.forEach((button) => { button.setAttribute('aria-pressed', 'false'); });
-    label.textContent = 'TOUS LES PROJETS';
+    label.textContent = 'TOUTES LES PRODUCTIONS';
     reset.hidden = true;
   };
 
@@ -63,7 +63,7 @@
     };
     const showPreview = (entry, trigger) => {
       image.src = entry.dataset.preview;
-      image.alt = entry.dataset.previewAlt || 'Aperçu application';
+      image.alt = entry.dataset.previewAlt || 'Aperçu';
       preview.hidden = false;
       positionPreview(trigger);
     };
