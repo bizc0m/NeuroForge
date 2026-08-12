@@ -457,6 +457,34 @@ figcaption { color: var(--red); }
   letter-spacing: .08em;
 }
 
+.nfo-status-filters {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 auto 10px;
+}
+
+.nfo-status-filters button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  border: 1px solid #1c6895;
+  color: var(--nfo-muted);
+  background: transparent;
+  font: inherit;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.nfo-status-filters button[aria-pressed="true"],
+.nfo-status-filters button:hover,
+.nfo-status-filters button:focus-visible { color: var(--nfo-ink); border-color: var(--nfo-green); outline: 0; }
+.status-light { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.status-light.alpha { color: #ed8b2c; }
+.status-light.beta { color: #e7d338; }
+.status-light.stable { color: #62cf4a; }
+
 .nfo-filter-state button {
   padding: 3px 7px;
   border: 1px solid #1c6895;
@@ -467,6 +495,26 @@ figcaption { color: var(--red); }
 }
 
 .nfo-entry[hidden] { display: none; }
+
+.nfo-entry[data-preview] .nfo-app-icon,
+.nfo-entry[data-preview] .nfo-glyph,
+.nfo-entry[data-preview] h2 { cursor: zoom-in; }
+
+.nfo-preview {
+  position: fixed;
+  z-index: 20;
+  width: min(520px, calc(100vw - 24px));
+  margin: 0;
+  padding: 5px;
+  border: 1px solid var(--nfo-blue);
+  background: var(--nfo-bg);
+  box-shadow: 6px 6px 0 #0b3157;
+  pointer-events: none;
+}
+
+.nfo-preview[hidden] { display: none; }
+.nfo-preview img { display: block; width: 100%; max-height: 330px; object-fit: contain; background: #070909; }
+.nfo-preview figcaption { padding: 5px 3px 1px; color: var(--nfo-green); font-size: 9px; letter-spacing: .08em; }
 
 .nfo-status {
   display: inline-flex;
@@ -528,6 +576,7 @@ figcaption { color: var(--red); }
   .nfo-actions { width: 100%; order: 3; }
   .nfo-actions a { flex: 0 1 auto; }
   .nfo-footer { flex-direction: column; align-items: center; }
+  .nfo-preview { width: calc(100vw - 20px); left: 10px !important; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
