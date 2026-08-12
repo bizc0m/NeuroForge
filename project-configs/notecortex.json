@@ -11,9 +11,9 @@
   },
   "links": {
     "page": "https://bizc0m.github.io/NeuroForge/projects/notecortex.html",
-    "app": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex/mac/dist/NoteCortex.app",
-    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
-    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
+    "app": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteCortex/mac/dist/NoteCortex.app",
+    "localRepo": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
+    "localFolder": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteCortex",
     "logo": "docs/assets/apps/notecortex-logo.png"
   },
   "about": {

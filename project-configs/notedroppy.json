@@ -11,9 +11,9 @@
   },
   "links": {
     "page": "https://bizc0m.github.io/NeuroForge/projects/notedroppy.html",
-    "release": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy/releases/NoteDroppy-v3.0.zip",
-    "localRepo": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
-    "localFolder": "file:///Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
+    "release": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy/releases/NoteDroppy-v3.0.zip",
+    "localRepo": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
+    "localFolder": "neuroforge://open?path=/Users/JOB/%23DEV/02-apps/NCTx/NoteDroppy",
     "logo": "docs/assets/apps/notedroppy-logo.png"
   },
   "about": {
@@ -21,7 +21,7 @@
     "purpose": "Capturer rapidement texte, liens et contexte vers les notes de travail.",
     "audience": "Utilisateurs qui veulent envoyer une information au bon endroit sans casser leur flux.",
     "function": "Expose une app locale de capture avec liens directs vers l'app, le dossier et le repo.",
-    "limits": "Les liens file:// sont valides localement et peuvent etre bloques depuis une page HTTPS selon le navigateur."
+    "limits": "Les actions locales passent par le handler macOS neuroforge:// installe sur la machine."
   },
   "docs": {
     "autoReadme": true,
