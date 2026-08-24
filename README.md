@@ -28,21 +28,14 @@ Single source for Neuro Forge identity, manifesto, brand assets, templates, prom
 - Palette: black, white, alchemical red.
 - Logo exports: [brand/logo/exports](brand/logo/exports)
 
-## Project badges
+## Badges
 
-The standard Neuro Forge badge set is:
+Neuro Forge maintains two badge libraries:
 
-| Badge | Meaning | Source |
-|---|---|---|
-| `Taillandier ✓` | Neuro Forge conformity mark | validation criteria |
-| `Release` | latest published version | GitHub Releases |
-| `Build & Tests` | repository validation status | GitHub Actions |
-| `Platform` | supported platform | `.neuroforge.yml` |
-| `License` | project license | repository |
-| `AI-assisted` | AI-assisted development disclosed | `.neuroforge.yml` |
-| `Maintained` | latest repository activity | GitHub commits |
-| `Open Source` | source availability | repository + license |
-| `Support` | project support | Buy Me a Coffee |
+- [Project family badges](brand/badges/PROJECT_BADGES.md): NeoCortex, NoteCortex, NCTx, Nyx Blade System, Nyx and Chaos2Action.
+- [Standard badge catalog](brand/badges/STANDARD_BADGES.md): Neuro Forge, Taillandier, Blade, Core, Standalone, lifecycle, platform, Local First, Offline Capable, Privacy First, AI-assisted, Open Source, MIT, Maintained and Support.
+
+README headers should normally select only **6–8 relevant badges**. A badge must communicate a true, preferably verifiable property; it is not decoration.
 
 The **Taillandier** badge is the Neuro Forge conformity mark: it means the project follows the dedicated-tool principles and passes the repository validation workflow.
 
