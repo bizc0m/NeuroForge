@@ -1,0 +1,34 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  taillandier:
+    name: Taillandier validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required files and metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(README.md LICENSE .neuroforge.yml docs/TAILLANDIER_BADGE.md)
+          for file in "${required[@]}"; do
+            test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
+          done
+          grep -q '^name:' .neuroforge.yml
+          grep -q '^function:' .neuroforge.yml
+          grep -q '^license: MIT' .neuroforge.yml
+          grep -q '^ai_assisted: true' .neuroforge.yml
+          grep -q '^taillandier: true' .neuroforge.yml
+          if grep -R -nE '\{\{[A-Z0-9_]+\}\}' README.md docs .neuroforge.yml; then
+            echo 'Unresolved template placeholder found.'
+            exit 1
+          fi
+          echo 'Taillandier validation passed.'
