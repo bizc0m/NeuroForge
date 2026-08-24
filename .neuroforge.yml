@@ -1,0 +1,13 @@
+name: NeuroForge
+function: Neuro Forge standards, identity and shared tooling
+platform: cross-platform
+license: MIT
+ai_assisted: true
+open_source: true
+taillandier: true
+
+links:
+  repository: https://github.com/bizc0m/NeuroForge
+  documentation: https://github.com/bizc0m/NeuroForge
+  releases: https://github.com/bizc0m/NeuroForge/releases
+  support: https://buymeacoffee.com/bizcom
