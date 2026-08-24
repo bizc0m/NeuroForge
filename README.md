@@ -46,3 +46,7 @@ See [Taillandier badge standard](docs/TAILLANDIER_BADGE.md) for certification cr
 `Taillandier ✓ · vX.Y.Z · Build ✓ · Tests ✓ · PLATFORM · MIT · AI-assisted · Maintained · Open Source`
 
 Support is displayed separately: **Buy Me a Coffee**.
+
+## Disclaimer
+
+**Built in good faith, with AI assistance and without warranty. Contributions are welcome. Please review and test before use.**
