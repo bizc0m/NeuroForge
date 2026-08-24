@@ -1,42 +1,83 @@
 # Neuro Forge Project Badge Matrix
 
-This matrix is the production map for applying Neuro Forge badges across active repositories. Badges marked `candidate` must be verified against the repository before display.
+Badges are hierarchical. The order is deliberate: identity first, then project health, architecture, capabilities, and support.
 
-| Project | Core badges | Family / architecture | Conditional badges |
-|---|---|---|---|
-| NeuroForge | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Neuro Forge, Core | Cross-platform |
-| Nyx | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Support | Nyx, Nyx Blade System, Core | Local First candidate, Privacy First candidate |
-| NCTx | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Support | NCTx, Core | Local First candidate, Offline Capable candidate |
-| NoteCortex | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Support | NoteCortex | Nyx Blade candidate, macOS Native candidate, Local First candidate |
-| NoteCortex-Dashboard | Release, Build & Tests, Platform, AI-assisted, Maintained | NoteCortex, Standalone | Nyx Blade candidate |
-| DashB-NCTx | Release, Build & Tests, Platform, AI-assisted, Maintained | NCTx, Standalone | Nyx Blade candidate |
-| DASB-NCTX2 | Release, Build & Tests, Platform, AI-assisted, Maintained | NCTx, Standalone | Experimental candidate |
-| NCTXSortR | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | NCTx, Standalone | Local First candidate |
-| noteplan-compagnon-prod | Release, Build & Tests, Platform, AI-assisted, Maintained | NCTx, Blade candidate | macOS Native candidate, Local First candidate |
-| NoteDroppy | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | macOS Native candidate, Local First candidate |
-| NoteplanShorty | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | macOS Native candidate, Local First candidate |
-| egrecore | Release, Build & Tests, Platform, AI-assisted, Maintained | Core candidate | Experimental candidate |
-| amazon-tickers | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | Local First candidate |
-| prompt-master | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Core | Offline Capable candidate |
-| DemoForge-Public | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | Offline Capable candidate |
-| Demoforge-Scene | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | Experimental candidate |
-| DAICH | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | Local First candidate |
-| InstaBatchCrop | Taillandier, Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | macOS Native candidate, Local First candidate, Offline Capable candidate |
-| ai-station-m5 | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Standalone | Local First candidate |
-| NoctIntel | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Standalone | Local First candidate, Privacy First candidate |
-| onoma | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source, Support | Standalone | Experimental candidate |
-| oToReel | Release, Build & Tests, Platform, AI-assisted, Maintained | Standalone | Experimental candidate |
-| CookieRS | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Standalone | Local First candidate |
-| sovereign-llm | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Core candidate | Local First candidate, Privacy First candidate |
-| nightlife-scanner | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Standalone | Experimental candidate |
-| PACTE_IA | Release, Build & Tests, Platform, MIT, AI-assisted, Maintained, Open Source | Standalone | Stable/Experimental to verify |
+## Badge hierarchy
 
-## Production rules
+### L1 — Identity
 
-1. Never apply `Taillandier ✓` automatically: the project must pass the Neuro Forge conformity checks.
-2. Never apply `Privacy First`, `Local First`, `Offline Capable`, `macOS Native`, `Blade`, `Core`, `Stable`, `Experimental`, `Legacy` or `Archived` without verification.
-3. Public repositories may use `Open Source` only when licensing is explicit and compatible.
-4. `Maintained` should be dynamic from repository activity.
-5. `Release` and `Build & Tests` should be dynamic whenever GitHub metadata/workflows exist.
-6. Keep 6–8 visible README badges; move secondary badges to a Project Status section.
-7. The About cartouche should use native text/chips, not remote Shields images.
+Use first. Maximum 2 badges.
+
+`Neuro Forge` · `Taillandier ✓` · family badge (`Nyx`, `NCTx`, `NoteCortex`, `DemoForge`, etc.)
+
+### L2 — Project health
+
+Use immediately after identity.
+
+`Release` · `Build & Tests` · `Maintained` · lifecycle (`Stable`, `Experimental`, `Legacy`, `Archived`)
+
+### L3 — Architecture
+
+Use only when structurally meaningful.
+
+`Core` · `Nyx Blade` · `Standalone` · `macOS Native` · `Cross-platform`
+
+### L4 — Capabilities & guarantees
+
+Use only when verified.
+
+`Local First` · `Offline Capable` · `Privacy First` · `Open Source` · `MIT` · `AI-assisted`
+
+### L5 — Support
+
+Always last and visually separated.
+
+`Buy Me a Coffee`
+
+## Recommended visible cartouche
+
+Maximum **6–8 badges** in the README header:
+
+`Family/Neuro Forge` → `Taillandier ✓` → `Release` → `Build & Tests` → `Lifecycle` → `Platform/Architecture` → `License/Open Source` → `Support`
+
+Secondary properties belong in a **Project Status** section.
+
+## Project matrix
+
+| Priority | Project | L1 Identity | L2 Health | L3 Architecture | L4 Capabilities | L5 |
+|---:|---|---|---|---|---|---|
+| P0 | NeuroForge | Neuro Forge, Taillandier | Release, Build & Tests, Maintained | Core, Cross-platform | MIT, AI-assisted, Open Source | Support |
+| P0 | Nyx | Nyx, Taillandier candidate | Release, Build & Tests, Maintained | Nyx Blade System, Core | MIT, AI-assisted; Local/Privacy candidates | Support |
+| P0 | NCTx | NCTx, Taillandier candidate | Release, Build & Tests, Maintained | Core | MIT, AI-assisted; Local/Offline candidates | Support |
+| P0 | NoteCortex | NoteCortex, Taillandier candidate | Release, Build & Tests, Maintained | Blade/macOS candidates | MIT, AI-assisted; Local candidate | Support |
+| P1 | NCTXSortR | NCTx, Taillandier candidate | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local candidate | Support |
+| P1 | noteplan-compagnon-prod | NCTx | Release, Build & Tests, Maintained | Blade/macOS candidates | AI-assisted; Local candidate | — |
+| P1 | NoteDroppy | Neuro Forge, Taillandier candidate | Release, Build & Tests, Maintained | Standalone, macOS candidate | MIT, AI-assisted, Open Source; Local candidate | Support |
+| P1 | NoteplanShorty | Neuro Forge, Taillandier candidate | Release, Build & Tests, Maintained | Standalone, macOS candidate | MIT, AI-assisted, Open Source; Local candidate | Support |
+| P1 | amazon-tickers | Neuro Forge | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local candidate | Support |
+| P1 | InstaBatchCrop | Neuro Forge, Taillandier candidate | Release, Build & Tests, Maintained | Standalone, macOS candidate | MIT, AI-assisted, Open Source; Local/Offline candidates | Support |
+| P2 | NoteCortex-Dashboard | NoteCortex | Release, Build & Tests, Maintained | Standalone; Blade candidate | AI-assisted | — |
+| P2 | DashB-NCTx | NCTx | Release, Build & Tests, Maintained | Standalone; Blade candidate | AI-assisted | — |
+| P2 | DASB-NCTX2 | NCTx | Release, Build & Tests, Experimental candidate | Standalone | AI-assisted | — |
+| P2 | egrecore | Neuro Forge | Release, Build & Tests, Experimental candidate | Core candidate | AI-assisted | — |
+| P2 | prompt-master | Neuro Forge | Release, Build & Tests, Maintained | Core | MIT, AI-assisted, Open Source; Offline candidate | — |
+| P2 | DemoForge-Public | Neuro Forge, Taillandier candidate | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Offline candidate | Support |
+| P2 | Demoforge-Scene | Neuro Forge | Release, Build & Tests, Experimental candidate | Standalone | MIT, AI-assisted, Open Source | Support |
+| P2 | DAICH | Neuro Forge | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local candidate | Support |
+| P3 | ai-station-m5 | Neuro Forge | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local candidate | — |
+| P3 | NoctIntel | Neuro Forge | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local/Privacy candidates | — |
+| P3 | onoma | Neuro Forge | Release, Build & Tests, Experimental candidate | Standalone | MIT, AI-assisted, Open Source | Support |
+| P3 | oToReel | Neuro Forge | Release, Build & Tests, Experimental candidate | Standalone | AI-assisted | — |
+| P3 | CookieRS | Neuro Forge | Release, Build & Tests, Maintained | Standalone | MIT, AI-assisted, Open Source; Local candidate | — |
+| P3 | sovereign-llm | Neuro Forge | Release, Build & Tests, Maintained | Core candidate | MIT, AI-assisted, Open Source; Local/Privacy candidates | — |
+| P3 | nightlife-scanner | Neuro Forge | Release, Build & Tests, Experimental candidate | Standalone | MIT, AI-assisted, Open Source | — |
+| P3 | PACTE_IA | Neuro Forge | Release, Build & Tests, lifecycle to verify | Standalone | MIT, AI-assisted, Open Source | — |
+
+## Rules
+
+1. `Taillandier ✓` is earned only after conformity validation.
+2. `Privacy First`, `Local First`, `Offline Capable`, `macOS Native`, `Blade`, `Core` and lifecycle badges require verification.
+3. `Open Source` requires an explicit compatible license, not merely a public repository.
+4. `Maintained`, `Release` and `Build & Tests` should be dynamic whenever possible.
+5. README headers show 6–8 primary badges maximum.
+6. About screens use native chips/text, never remote Shields images.
