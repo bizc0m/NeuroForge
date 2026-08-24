@@ -1,0 +1,13 @@
+documentation:
+  reference_languages:
+    - fr
+    - en
+  generated_languages:
+    - it
+    - es
+    - de
+    - pt
+    - ja
+    - ko
+  generated_translation_review_required: true
+  generated_notice: "Automatically translated from the validated reference documentation — review welcome."
