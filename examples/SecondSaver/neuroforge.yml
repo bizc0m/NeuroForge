@@ -1,0 +1,33 @@
+standard: v1.0
+app:
+  name: SecondSaver
+  function: Remove repetitive delay from a single recurring workflow.
+  category: cognitive-tool
+  status: experimental
+  version: 0.1.0
+  platform:
+    - macOS
+  languages:
+    - en
+    - fr
+  license: MIT
+  ai_assisted: true
+links:
+  repository: https://github.com/bizc0m/NeuroForge
+  documentation: https://github.com/bizc0m/NeuroForge/tree/main/examples/SecondSaver
+  releases: https://github.com/bizc0m/NeuroForge/releases
+  support: https://buymeacoffee.com/bizcom
+neuroforge:
+  label: candidate
+  philosophy: "Explore. Understand. Connect. Invent."
+  tagline_1: "FORGED FOR ATYPICAL THINKERS."
+  tagline_2: "THEN, GREAT RESULTS."
+  taillandier: true
+compliance:
+  about: true
+  preferences: true
+  readme: true
+  license: true
+  tests: true
+  documentation: true
+  no_unresolved_placeholders: true
