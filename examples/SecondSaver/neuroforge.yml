@@ -1,0 +1,59 @@
+standard: v2.0
+
+project:
+  name: SecondSaver
+  function: Time-saving example tool
+  description: Example project used to validate Neuro Forge badge generation.
+  version: 0.1.0
+  type: tool
+  status: example
+
+platform:
+  macos: false
+  ios: false
+  web: true
+  linux: false
+  windows: false
+
+technology:
+  language: HTML
+  framework: none
+  dependencies: []
+
+localization:
+  canonical: en
+  required:
+    - en
+    - fr
+  available:
+    - en
+    - fr
+
+github:
+  repository: bizc0m/SecondSaver
+  releases: pending
+  pages: pending
+
+support:
+  buy_me_a_coffee: https://buymeacoffee.com/bizcom
+
+topics:
+  core:
+    - neuro-forge
+    - taillandier
+    - atypical-thinkr
+    - 0sec-workr
+    - cognitive-tools
+  platform:
+    - web
+  language:
+    - html
+  domain:
+    - time-saving
+
+compliance:
+  neuroforge: pending
+
+assets:
+  icon_status: pending
+  screenshots_status: pending

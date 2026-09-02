@@ -1,0 +1,127 @@
+standard: v2.0
+
+project:
+  name: "{{APP_NAME}}"
+  function: "{{APP_FUNCTION}}"
+  description: "{{APP_DESCRIPTION}}"
+  version: pending
+  type: "{{APP_TYPE}}"
+  status: pending
+
+platform:
+  macos: pending
+  ios: false
+  web: pending
+  linux: pending
+  windows: pending
+
+technology:
+  language: pending
+  framework: pending
+  dependencies: []
+
+localization:
+  canonical: en
+  required:
+    - en
+    - fr
+  optional:
+    - de
+    - es
+    - it
+    - ko
+    - ja
+    - zh
+  available: []
+  navigation:
+    show_all_languages: true
+    languages:
+      - code: en
+        label: EN
+        status: pending
+      - code: fr
+        label: FR
+        status: pending
+      - code: de
+        label: DE
+        status: pending
+      - code: es
+        label: ES
+        status: pending
+      - code: it
+        label: IT
+        status: pending
+      - code: ko
+        label: KO
+        status: pending
+      - code: ja
+        label: JA
+        status: pending
+      - code: zh
+        label: ZH
+        status: pending
+
+navigation:
+  home: pending
+  apps: pending
+  breadcrumb: pending
+  previous: pending
+  next: pending
+
+github:
+  repository: pending
+  releases: pending
+  pages: pending
+  discussions: pending
+  issues: pending
+
+branding:
+  icon: pending
+  screenshots: pending
+  neuroforge_branding: true
+
+support:
+  buy_me_a_coffee: https://buymeacoffee.com/bizcom
+
+badges:
+  - label: standard
+    value: v2.0
+  - label: brand
+    value: NeuroForge
+  - label: status
+    value: pending
+  - label: platform
+    value: pending
+  - label: support
+    value: Buy Me a Coffee
+
+topics:
+  core:
+    - neuro-forge
+    - taillandier
+    - atypical-thinkr
+    - 0sec-workr
+    - cognitive-tools
+    - local-first
+    - productivity
+    - human-centered-software
+  platform: []
+  language: []
+  framework: []
+  domain: []
+
+categories: []
+combos: []
+katas: []
+gains: []
+
+compliance:
+  neuroforge: pending
+
+assets:
+  icon_status: pending
+  screenshots_status: pending
+
+standard_metadata:
+  applied_at: pending
+  applied_by: Codex

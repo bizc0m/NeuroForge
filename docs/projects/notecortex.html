@@ -1,48 +1,97 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030504">
   <title>NoteCortex - NeuroForge</title>
+  <link rel="icon" href="../assets/logo/neuro-forge-logo-32.png" type="image/png">
   <link rel="stylesheet" href="../style.css">
+  <script src="../project-i18n.js?v=4" defer></script>
 </head>
-<body>
-  <main class="project-page">
-    <header class="project-hero">
-      <a class="back-link" href="../apps.html">Apps NeuroForge</a>
-      <img class="project-logo app-logo" src="../assets/apps/notecortex-logo.png" alt="NoteCortex app logo">
-      <p class="project-kicker">NEUROFORGE PROJECT / 001</p>
-      <h1>NoteCortex</h1>
-      <p class="project-subtitle">Réunissez vos notes, vos tâches et votre agenda dans un espace clair conçu pour vous aider à rester concentré.</p>
-      <nav class="project-actions">
-        <a href="https://github.com/bizc0m/NeuroForge">GitHub NeuroForge</a>
+<body class="nfo-body" data-project="notecortex">
+  <main class="nfo-shell nfo-project-page">
+    <header class="nfo-header">
+      <div class="nfo-topline"><span>PROJECT FILE</span><span>CP437 / EN</span></div>
+      <div class="nfo-project-toolbar">
+        <nav class="nfo-filebar" aria-label="Navigation projet">
+          <a href="../index.html">HOME</a>
+          <a href="../apps.html">APPS</a>
+          <span>NF / notecortex</span>
+          <a href="../apps.html">AVANT</a>
+          <a href="notedroppy.html">NEXT</a>
+          <div class="nfo-langbar" role="group" aria-label="Langues">
+            <a href="notecortex.html?lang=en" data-lang="en" aria-label="English" aria-current="page"><span class="nfo-flag" aria-hidden="true">🇬🇧</span><span>EN</span></a>
+            <a href="notecortex.html?lang=fr" data-lang="fr" aria-label="Français"><span class="nfo-flag" aria-hidden="true">🇫🇷</span><span>FR</span></a>
+            <a href="notecortex.html?lang=de" data-lang="de" aria-label="Deutsch"><span class="nfo-flag" aria-hidden="true">🇩🇪</span><span>DE</span></a>
+            <a href="notecortex.html?lang=es" data-lang="es" aria-label="Español"><span class="nfo-flag" aria-hidden="true">🇪🇸</span><span>ES</span></a>
+            <a href="notecortex.html?lang=it" data-lang="it" aria-label="Italiano"><span class="nfo-flag" aria-hidden="true">🇮🇹</span><span>IT</span></a>
+            <a href="notecortex.html?lang=ko" data-lang="ko" aria-label="한국어"><span class="nfo-flag" aria-hidden="true">🇰🇷</span><span>KO</span></a>
+            <a href="notecortex.html?lang=ja" data-lang="ja" aria-label="日本語"><span class="nfo-flag" aria-hidden="true">🇯🇵</span><span>JA</span></a>
+            <a href="notecortex.html?lang=zh" data-lang="zh" aria-label="中文"><span class="nfo-flag" aria-hidden="true">🇨🇳</span><span>ZH</span></a>
+          </div>
+        </nav>
+      </div>
+      <pre class="ascii-mark" aria-label="NoteCortex"> _   _  ___ _____ _____ ____ ___  ____ _____ _____ __  __
+| \ | |/ _ \_   _| ____/ ___/ _ \|  _ \_   _| ____\ \/ /
+|  \| | | | || | |  _|| |  | | | | |_) || | |  _|  \  /
+| |\  | |_| || | | |__| |__| |_| |  _ < | | | |___ /  \
+|_| \_|\___/ |_| |_____\____\___/|_| \_\|_| |_____/_/\_\</pre>
+      <p class="nfo-intro" data-i18n-project="Intro">Bring notes, tasks and calendar into a clear space designed to help you stay focused.</p>
+      <div class="nfo-badges nfo-badges-main" aria-label="Badges NoteCortex">
+        <img src="../assets/badges/neuroforge.svg" alt="Neuro Forge compliant">
+        <img src="https://img.shields.io/badge/status-alpha-111111?labelColor=f5f5f5" alt="Alpha status">
+        <img src="https://img.shields.io/badge/platform-macOS-111111?labelColor=f5f5f5" alt="Platform macOS">
+        <img src="https://img.shields.io/badge/languages-8-111111?labelColor=f5f5f5" alt="8 languages">
+        <img src="https://img.shields.io/badge/repo-private-111111?labelColor=f5f5f5" alt="Private repository">
+        <img src="../assets/badges/ai-assisted.svg" alt="AI-assisted">
+      </div>
+      <nav class="nfo-actions nfo-project-actions">
+        <a href="https://github.com/bizc0m/NeuroForge">GITHUB</a>
+        <a class="nfo-coffee-button" href="https://www.buymeacoffee.com/Bizcom"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&amp;emoji=%F0%9F%8D%BA&amp;slug=Bizcom&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a beer"></a>
       </nav>
     </header>
 
-    <section class="project-grid">
-      <article class="project-panel">
-        <h2>About</h2>
-        <p>Centralisez les informations importantes sans multiplier les applications et les fenêtres.</p>
-        <p>NoteCortex facilite la préparation de votre journée et le suivi de vos projets personnels.</p>
+    <section class="nfo-project-frame">
+      <aside class="nfo-project-media">
+        <img class="nfo-project-logo" src="../assets/apps/notecortex-logo.png" alt="Icône NoteCortex">
+        <a class="nfo-project-shot-link" href="../assets/screenshots/notecortex.png" aria-label="Open NoteCortex screenshot full size">
+          <img class="nfo-project-shot" src="../assets/screenshots/notecortex.png" alt="Capture de NoteCortex">
+        </a>
+      </aside>
+
+      <div class="nfo-project-grid">
+        <article class="nfo-project-panel">
+          <h2 data-i18n="about">ABOUT</h2>
+        <p data-i18n-project="About1">Centralize important information without multiplying apps and windows.</p>
+        <p data-i18n-project="About2">NoteCortex helps prepare your day and follow personal projects.</p>
       </article>
 
-      <article class="project-panel">
-        <h2>GitHub</h2>
-        <p>Le téléchargement public de NoteCortex n'est pas encore disponible.</p>
-        <p>Les prochaines versions seront publiées depuis le projet NeuroForge sur GitHub.</p>
+        <article class="nfo-project-panel">
+          <h2 data-i18n="audience">FOR WHO</h2>
+        <p data-i18n-project="Audience">For people who juggle notes, appointments and tasks and need a clear overview.</p>
       </article>
 
-      <article class="project-panel">
-        <h2>Pour qui</h2>
-        <p>Pour celles et ceux qui jonglent entre notes, rendez-vous et tâches et souhaitent retrouver une vue d'ensemble.</p>
-      </article>
+        <article class="nfo-project-panel">
+          <h2 data-i18n="topics">TOPICS</h2>
+          <p class="nfo-topic-links">
+            <a href="https://github.com/topics/neuro-forge">#neuro-forge</a>
+            <a href="https://github.com/topics/taillandier">#taillandier</a>
+            <a href="https://github.com/topics/atypical-thinkr">#atypical-thinkr</a>
+            <a href="https://github.com/topics/0sec-workr">#0sec-workr</a>
+            <a href="https://github.com/topics/cognitive-tools">#cognitive-tools</a>
+            <a href="https://github.com/topics/local-first">#local-first</a>
+            <a href="https://github.com/topics/macos">#macos</a>
+            <a href="https://github.com/topics/notes">#notes</a>
+            <a href="https://github.com/topics/agenda">#agenda</a>
+            <a href="https://github.com/topics/productivity">#productivity</a>
+          </p>
+        </article>
 
-      <article class="project-panel">
-        <h2>Disponibilité</h2>
-        <p>NoteCortex est actuellement en préparation. Le téléchargement public sera annoncé sur NeuroForge.</p>
-        <p class="project-signature">FORGED FOR ATYPICAL THINKERS. by NeuroForge</p>
-      </article>
+      </div>
     </section>
+
+    <footer class="nfo-footer"><span>PROJECT SOURCE</span><b>project-configs/notecortex.json</b></footer>
   </main>
 </body>
 </html>

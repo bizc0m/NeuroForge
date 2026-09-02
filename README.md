@@ -10,6 +10,10 @@ Cognitive tools forged for atypical thinkers.
 
 Single source for Neuro Forge identity, manifesto, brand assets, templates, prompts and synchronization scripts.
 
+## Procedures
+
+- [Project update procedure](docs/PROJECT_UPDATE_PROCEDURE.md): app/code, project pages, badges, GitHub metadata, Pages, validation and push gates.
+
 ## Brand
 
 - Name: Neuro Forge
@@ -17,4 +21,3 @@ Single source for Neuro Forge identity, manifesto, brand assets, templates, prom
 - Principles: Explore. Understand. Connect. Invent.
 - Palette: black, white, alchemical red.
 - Logo exports: [brand/logo/exports](brand/logo/exports)
-

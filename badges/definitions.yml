@@ -1,0 +1,54 @@
+version: 1
+
+custom:
+  neuroforge:
+    source: badges/generated/neuroforge.svg
+    label: Neuro Forge
+    value: compliant
+    required: true
+
+  ai_assisted:
+    source: badges/generated/ai-assisted.svg
+    label: AI-assisted
+    required: true
+
+  zero_sec_workr:
+    source: badges/generated/0sec-workr.svg
+    label: Atypical ThinkR / 0SEC WorkR
+    required: true
+
+dynamic:
+  release:
+    provider: github
+    type: release
+    required: false
+
+  build:
+    provider: github-actions
+    type: workflow
+    required: false
+
+  tests:
+    provider: github-actions
+    type: workflow
+    required: true
+
+  license:
+    provider: github
+    type: license
+    required: true
+
+  language:
+    provider: github
+    type: top-language
+    required: false
+
+  platform:
+    provider: neuroforge-yml
+    type: static-generated
+    required: true
+
+  maintained:
+    provider: github
+    type: activity
+    required: false

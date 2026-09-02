@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{HTML_LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030504">
+  <title>{{PROJECT_NAME}} - NeuroForge</title>
+  <link rel="icon" href="../assets/logo/neuro-forge-logo-32.png" type="image/png">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../project-i18n.js?v=4" defer></script>
+</head>
+<body class="nfo-body" data-project="{{PROJECT_SLUG}}">
+  <main class="nfo-shell nfo-project-page">
+    <header class="nfo-header">
+      <div class="nfo-topline"><span>PROJECT FILE</span><span>CP437 / {{LANG_LABEL}}</span></div>
+      <div class="nfo-project-toolbar">
+        <nav class="nfo-filebar" aria-label="Navigation projet">
+          <a href="../index.html">HOME</a>
+          <a href="../apps.html">APPS</a>
+          <span>{{PROJECT_PATH}}</span>
+          <a href="{{PREV_PROJECT_URL}}">AVANT</a>
+          <a href="{{NEXT_PROJECT_URL}}">NEXT</a>
+          <div class="nfo-langbar" role="group" aria-label="Langues">
+            <a href="{{PROJECT_FILE}}?lang=en" data-lang="en" aria-label="English" aria-current="page"><span class="nfo-flag" aria-hidden="true">🇬🇧</span><span>EN</span></a>
+            <a href="{{PROJECT_FILE}}?lang=fr" data-lang="fr" aria-label="Français"><span class="nfo-flag" aria-hidden="true">🇫🇷</span><span>FR</span></a>
+            <a href="{{PROJECT_FILE}}?lang=de" data-lang="de" aria-label="Deutsch"><span class="nfo-flag" aria-hidden="true">🇩🇪</span><span>DE</span></a>
+            <a href="{{PROJECT_FILE}}?lang=es" data-lang="es" aria-label="Español"><span class="nfo-flag" aria-hidden="true">🇪🇸</span><span>ES</span></a>
+            <a href="{{PROJECT_FILE}}?lang=it" data-lang="it" aria-label="Italiano"><span class="nfo-flag" aria-hidden="true">🇮🇹</span><span>IT</span></a>
+            <a href="{{PROJECT_FILE}}?lang=ko" data-lang="ko" aria-label="한국어"><span class="nfo-flag" aria-hidden="true">🇰🇷</span><span>KO</span></a>
+            <a href="{{PROJECT_FILE}}?lang=ja" data-lang="ja" aria-label="日本語"><span class="nfo-flag" aria-hidden="true">🇯🇵</span><span>JA</span></a>
+            <a href="{{PROJECT_FILE}}?lang=zh" data-lang="zh" aria-label="中文"><span class="nfo-flag" aria-hidden="true">🇨🇳</span><span>ZH</span></a>
+          </div>
+        </nav>
+      </div>
+      <pre class="ascii-mark" aria-label="{{PROJECT_NAME}}">{{ASCII_MARK}}</pre>
+      <p class="nfo-intro" data-i18n-project="Intro">{{PROJECT_INTRO}}</p>
+      <div class="nfo-badges nfo-badges-main" aria-label="Badges {{PROJECT_NAME}}">
+        {{BADGES_HTML}}
+      </div>
+      <nav class="nfo-actions nfo-project-actions">
+        {{ACTIONS_HTML}}
+        <a class="nfo-coffee-button" href="https://www.buymeacoffee.com/Bizcom"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&amp;emoji=%F0%9F%8D%BA&amp;slug=Bizcom&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a beer"></a>
+      </nav>
+    </header>
+
+    <section class="nfo-project-frame">
+      <aside class="nfo-project-media">
+        <img class="nfo-project-logo" src="{{PROJECT_LOGO}}" alt="Icône {{PROJECT_NAME}}">
+        <a class="nfo-project-shot-link" href="{{PROJECT_SCREENSHOT}}" aria-label="Open {{PROJECT_NAME}} screenshot full size">
+          <img class="nfo-project-shot" src="{{PROJECT_SCREENSHOT}}" alt="Capture de {{PROJECT_NAME}}">
+        </a>
+      </aside>
+
+      <div class="nfo-project-grid">
+        {{PANELS_HTML}}
+      </div>
+    </section>
+
+    <footer class="nfo-footer"><span>PROJECT SOURCE</span><b>{{PROJECT_SOURCE}}</b></footer>
+  </main>
+</body>
+</html>

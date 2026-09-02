@@ -11,3 +11,7 @@ mkdir -p "$target/brand/logo"
 cp -R brand/logo/exports "$target/brand/logo/"
 cp brand/identity.md brand/style-guide.md "$target/brand/"
 
+if [[ -d badges/generated ]]; then
+  mkdir -p "$target/docs/assets/badges"
+  cp badges/generated/*.svg "$target/docs/assets/badges/"
+fi

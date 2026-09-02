@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="22" viewBox="0 0 218 22" role="img" aria-labelledby="title desc">
+  <title id="title">Atypical ThinkR / 0SEC WorkR badge</title>
+  <desc id="desc">Badge for the Atypical ThinkR and 0SEC WorkR operating philosophy.</desc>
+  <rect width="218" height="22" fill="#050505"/>
+  <rect x="0.5" y="0.5" width="217" height="21" fill="none" stroke="#f5f5f5"/>
+  <rect x="4" y="4" width="36" height="14" fill="#f5f5f5"/>
+  <text x="22" y="15" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="10" font-weight="700" fill="#050505">0SEC</text>
+  <text x="47" y="15" font-family="Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#f5f5f5">Atypical ThinkR / 0SEC WorkR</text>
+</svg>
