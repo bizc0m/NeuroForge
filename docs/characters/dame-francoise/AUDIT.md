@@ -37,3 +37,14 @@ Preuves : `gallery-verification.json`, `visual-v3-verification.json`, `docs/gene
 - **Performance** : poids des médias mesuré ; pas de benchmark réseau réel, mémoire ou LCP avant/après. Archives PNG lourdes conservées à dessein pour l’historique.
 
 Prochaine décision : accepter le rendu optimisé puis autoriser la fusion séparément pour mettre la galerie en ligne. Les futurs raccordements aux applications doivent avoir leurs propres tests.
+
+## Seconde revue : liens et fonctionnement sans JavaScript
+
+- **CODE — constat supplémentaire :** les anciennes commandes de portraits et variantes étaient des boutons sans URL. Le message noscript proposait uniquement le profil ; les quatre archives n’étaient donc pas directement navigables sans script.
+- **Correction :** six liens HTML vers les PNG remplacent ces boutons ; JavaScript intercepte le clic normal pour ouvrir le même dialog. Les clics modifiés conservent le lien natif. L’indication ARIA de popup n’est ajoutée que lorsque le contrôleur est présent.
+- **TEST — nouveau périmètre exécuté :** contexte Chromium avec JavaScript désactivé, clic sur première variante et navigation réelle vers le PNG ; activation clavier Entrée avec JavaScript, puis fermeture Échap. Les contrôles de popup/erreur, téléchargement, égalité et cinq largeurs restent réussis sur le code modifié.
+- **Métadonnées :** ajout de `og:type`, `og:url` et `og:description`, avec URL de publication cible. Aucune indexation ou prévisualisation de réseau social n’est revendiquée avant déploiement.
+- **Échec d’environnement distingué :** un essai exploratoire en URL file a échoué parce que le caractère # du chemin n’était pas encodé ; ce résultat n’a pas été utilisé comme preuve d’un défaut du produit. Le contrôle retenu utilise le serveur HTTP synthétique sur port isolé.
+- **Statut distant vérifié avant mise à jour :** PR 5 ouverte et brouillon, GitHub Pages configuré sur main:/docs ; aucune mise en ligne de cette branche.
+
+Les limites de la première revue restent ouvertes. Cette seconde revue ne change ni les illustrations ni les préférences d’applications et n’exécute aucun compte utilisateur.

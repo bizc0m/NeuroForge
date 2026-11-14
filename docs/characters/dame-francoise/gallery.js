@@ -10,7 +10,10 @@
   let request = 0;
 
   document.querySelectorAll('[data-image]').forEach(button => {
-    button.addEventListener('click', async () => {
+    button.setAttribute('aria-haspopup', 'dialog');
+    button.addEventListener('click', async event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
       const current = ++request;
       trigger = button;
       image.hidden = true;
