@@ -1,0 +1,12 @@
+{
+  "fileChecks": "passed",
+  "pngDecode": "passed",
+  "alphaVerified": true,
+  "relativeImageLinks": [
+    "assets/dame-francoise-approved.png",
+    "assets/francois-passeur-proposal.png"
+  ],
+  "visualReview": "female approved; male proposed",
+  "runtimeTests": "not applicable — document and images only",
+  "secretPatternReview": true
+}

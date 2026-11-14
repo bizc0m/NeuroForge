@@ -1,0 +1,44 @@
+{
+  "schema": "neuroforge-character-pack",
+  "schemaVersion": 1,
+  "softwareVersion": null,
+  "softwareBuild": null,
+  "officialAvatar": "dame-francoise-de-sales",
+  "alternativeAvatar": "francois-le-passeur",
+  "religion": "Catholic",
+  "fictional": true,
+  "assets": [
+    {
+      "id": "dame-francoise-de-sales",
+      "status": "approved",
+      "file": "assets/dame-francoise-approved.png",
+      "width": 1118,
+      "height": 1407,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "sha256": "854586a7ac213117b9e4299b4689d50e5e8ea17a1681508f1ce2a3bcf1dba27c",
+      "layers": false
+    },
+    {
+      "id": "francois-le-passeur",
+      "status": "proposed",
+      "file": "assets/francois-passeur-proposal.png",
+      "width": 1118,
+      "height": 1407,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "sha256": "ce0e46eaa58e4684a5a055672e73da1ade41c0aea342fa381257155e98554962",
+      "layers": false
+    }
+  ],
+  "runtimeIntegration": "not implemented by this pack",
+  "rights": "No new licence granted; reference photographs not redistributed",
+  "pending": [
+    "Male approval",
+    "Pygmalion icon",
+    "Separate layers",
+    "Pose calibration",
+    "13 language list",
+    "Product integration"
+  ]
+}
