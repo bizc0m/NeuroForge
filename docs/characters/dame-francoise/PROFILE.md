@@ -142,3 +142,11 @@ KindWare reste une invitation en cours de définition, pas une nouvelle licence 
 ### Correction héraldique
 
 Les fichiers initiaux sont conservés sans écrasement. Les versions `savoie-v2` ajoutent l’écu simple vérifié ; les anciennes recherches peuvent encore contenir un motif approximatif. Le SVG de référence est fourni séparément. La source héraldique ne constitue pas une licence globale sur les illustrations.
+
+## Aperçus Web et contrôle de la galerie
+
+Les images affichées utilisent des dérivés WebP, avec conservation des PNG originaux pour les popups et téléchargements. `previews.json` conserve tailles, empreintes et paramètres de conversion ; aucun original n’est écrasé. Régénération dans le worktree : `node Tools/DocumentationCharacterPreviews.cjs`. Les outils et tests vivent dans le worktree Documentation de Nyx ; cette commande ne désigne pas un fichier déjà disponible dans le dépôt public NeuroForge.
+
+La popup annonce son chargement ou une erreur, désactive le téléchargement indisponible et conserve le focus clavier. Les cinq largeurs et erreurs simulées sont consignées dans `gallery-verification.json`. Ces contrôles ne valident ni les 13 langues, ni une intégration aux applications, ni l’exactitude architecturale de l’illustration.
+
+[Audit, contrôles et limites du lot](AUDIT.md).

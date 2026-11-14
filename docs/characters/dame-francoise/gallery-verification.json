@@ -69,9 +69,15 @@
     }
   ],
   "fourPopupVariants": true,
+  "twoPortraitPopups": true,
   "escapeCloses": true,
   "focusRestored": true,
   "pngDownload": true,
+  "missingImageFeedback": true,
+  "brokenDownloadDisabled": true,
+  "delayedRequestDoesNotOverwrite": true,
   "consoleErrors": [],
+  "originalDisplayBytes": 13859098,
+  "optimizedDisplayBytes": 619358,
   "runtimeProductValidation": false
 }
