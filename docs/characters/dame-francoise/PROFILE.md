@@ -4,7 +4,7 @@
 
 Personnage fictif adulte et mascotte officielle du projet de structuration et d’unification de la communication NeuroForge. Identité et dernière direction visuelle approuvées par l’utilisateur ; raccordement aux applications non réalisé par cette fiche. Aucun dépôt n’est renommé par ce document.
 
-![Dame Françoise de Sales, mascotte officielle](assets/dame-francoise-savoie-v2.png)
+![Dame Françoise de Sales, mascotte officielle](assets/dame-francoise-communication-v3.png)
 
 ## 1. Identité et rôle
 
@@ -64,7 +64,7 @@ Le nom renvoie à **François de Sales**, patron des écrivains et des journalis
 
 ## 5. Mission : structurer et unifier la communication
 
-La tablette illustre un flux conceptuel : **Sources → Docs / About / Web → Langues → Publier**. C’est une représentation de quelques supports de la mission, pas la totalité de son périmètre, ni une capture d’un logiciel opérationnel ni une preuve de publication automatisée.
+La tablette illustre un flux conceptuel : **Sources → Communication → App / Web / Docs → Langues**. C’est une représentation de quelques supports de la mission, pas la totalité de son périmètre, ni une capture d’un logiciel opérationnel ni une preuve de publication automatisée.
 
 Le chat et l’avatar organisent un système de communication cohérent : identifier le public et la tâche, structurer les messages, appliquer un vocabulaire et une identité communs, adapter les supports et langues, vérifier leurs liens et leur fraîcheur. Ils doivent aider à comprendre une fonction, expliquer une procédure, identifier une information manquante, distinguer un résultat testé d’une proposition et accueillir les contributions. Elle ne doit ni masquer les commandes ni forcer la présence d’une mascotte.
 
@@ -88,7 +88,7 @@ Exemples **proposés**, non citations historiques :
 
 **François, dit le Passeur** — nom de travail proposé, personnage fictif adulte d’environ 38 ans. Variante utilisateur, non remplacement de la mascotte officielle ; il ne représente pas le saint historique.
 
-![François, dit le Passeur — proposition d’avatar alternatif](assets/francois-passeur-savoie-v2.png)
+![François, dit le Passeur — proposition d’avatar alternatif](assets/francois-passeur-communication-v3.png)
 
 Catholique, intelligent, courageux, loyal, protecteur et investi. Il exprime sa force par la patience, la responsabilité et la capacité à aider, sans domination. Humble et chaleureux, il vérifie ses sources et facilite l’autonomie. Son élégance et son attrait répondent à la même exigence graphique que ceux de Dame Françoise.
 
@@ -116,8 +116,8 @@ Calibrer chaque pose avec repère de main, orientation du regard et limites de c
 
 ## 10. Ressources, droits et versionnement
 
-- `assets/dame-francoise-savoie-v2.png` : dernier visuel féminin approuvé.
-- `assets/francois-passeur-savoie-v2.png` : première proposition masculine à valider.
+- `assets/dame-francoise-communication-v3.png` : dernier visuel féminin approuvé.
+- `assets/francois-passeur-communication-v3.png` : première proposition masculine à valider.
 - `manifest.json` : identifiants, statut, caractéristiques et empreintes des exports.
 - `verification.json` : contrôles de fichiers et de références locales ; pas un test de produit.
 

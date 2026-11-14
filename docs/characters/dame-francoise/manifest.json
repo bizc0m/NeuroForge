@@ -10,27 +10,27 @@
   "assets": [
     {
       "id": "dame-francoise-de-sales",
-      "status": "heraldry-corrected-proposal",
-      "file": "assets/dame-francoise-savoie-v2.png",
+      "status": "communication-visual-refinement-proposed",
+      "file": "assets/dame-francoise-communication-v3.png",
       "width": 1118,
       "height": 1407,
       "alphaMin": 0,
       "alphaMax": 255,
-      "sha256": "3ab8ea87d425f5b73e5ae6c40d31c787c2b2d865a4ab75589d381da961f00400",
+      "sha256": "6fbddb3777681be50eb625a5b77373ee54be6eedba7419bb3a8ce47babffe1a8",
       "layers": false,
-      "previousFile": "assets/dame-francoise-approved.png"
+      "previousFile": "assets/dame-francoise-savoie-v2.png"
     },
     {
       "id": "francois-le-passeur",
-      "status": "heraldry-corrected-proposal",
-      "file": "assets/francois-passeur-savoie-v2.png",
+      "status": "communication-visual-refinement-proposed",
+      "file": "assets/francois-passeur-communication-v3.png",
       "width": 1118,
       "height": 1407,
       "alphaMin": 0,
       "alphaMax": 255,
-      "sha256": "7c5bc4f05aad518c311e9cc1d9cd2a0e049d3a7fe699421860253e8791006ae1",
+      "sha256": "3fd9387771a1a1fdde71731314c9f6af7cad1c191b0b6989773b151026f0977f",
       "layers": false,
-      "previousFile": "assets/francois-passeur-proposal.png"
+      "previousFile": "assets/francois-passeur-savoie-v2.png"
     }
   ],
   "runtimeIntegration": "not implemented by this pack",
@@ -69,5 +69,6 @@
     "form": "simple Savoy shield, cross throughout",
     "source": "https://sigilla.irht.cnrs.fr/151773",
     "referenceSVG": "assets/savoie-ecu-reference.svg"
-  }
+  },
+  "diagram": "Sources → Communication → App / Web / Docs → Langues"
 }

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "assets/dame-francoise-communication-v3.png",
+      "sha256": "6fbddb3777681be50eb625a5b77373ee54be6eedba7419bb3a8ce47babffe1a8",
+      "w": 1118,
+      "h": 1407,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "file": "assets/francois-passeur-communication-v3.png",
+      "sha256": "3fd9387771a1a1fdde71731314c9f6af7cad1c191b0b6989773b151026f0977f",
+      "w": 1118,
+      "h": 1407,
+      "min": 0,
+      "max": 255
+    }
+  ],
+  "review": "Communication hub and App/Web/Docs visible; background quieter; Savoy shields larger. User approval pending.",
+  "runtimeProductValidation": false
+}
