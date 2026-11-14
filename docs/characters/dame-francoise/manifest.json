@@ -10,25 +10,27 @@
   "assets": [
     {
       "id": "dame-francoise-de-sales",
-      "status": "approved",
-      "file": "assets/dame-francoise-approved.png",
+      "status": "heraldry-corrected-proposal",
+      "file": "assets/dame-francoise-savoie-v2.png",
       "width": 1118,
       "height": 1407,
       "alphaMin": 0,
       "alphaMax": 255,
-      "sha256": "854586a7ac213117b9e4299b4689d50e5e8ea17a1681508f1ce2a3bcf1dba27c",
-      "layers": false
+      "sha256": "3ab8ea87d425f5b73e5ae6c40d31c787c2b2d865a4ab75589d381da961f00400",
+      "layers": false,
+      "previousFile": "assets/dame-francoise-approved.png"
     },
     {
       "id": "francois-le-passeur",
-      "status": "proposed",
-      "file": "assets/francois-passeur-proposal.png",
+      "status": "heraldry-corrected-proposal",
+      "file": "assets/francois-passeur-savoie-v2.png",
       "width": 1118,
       "height": 1407,
       "alphaMin": 0,
       "alphaMax": 255,
-      "sha256": "ce0e46eaa58e4684a5a055672e73da1ade41c0aea342fa381257155e98554962",
-      "layers": false
+      "sha256": "7c5bc4f05aad518c311e9cc1d9cd2a0e049d3a7fe699421860253e8791006ae1",
+      "layers": false,
+      "previousFile": "assets/francois-passeur-proposal.png"
     }
   ],
   "runtimeIntegration": "not implemented by this pack",
@@ -61,5 +63,11 @@
     "Combos",
     "Katas",
     "contributions"
-  ]
+  ],
+  "heraldry": {
+    "blazon": "De gueules à la croix d’argent",
+    "form": "simple Savoy shield, cross throughout",
+    "source": "https://sigilla.irht.cnrs.fr/151773",
+    "referenceSVG": "assets/savoie-ecu-reference.svg"
+  }
 }

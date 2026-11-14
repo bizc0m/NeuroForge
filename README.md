@@ -21,7 +21,7 @@ Single source for Neuro Forge identity, manifesto, brand assets, templates, prom
 
 ## Dame Françoise de Sales — coherent communication
 
-Structure and unify communication, making it coherent and efficient across messages, interfaces, visuals, product pages, documentation, translations and tutorials. Official female mascot and optional male avatar, with four archived visual studies.
+Structure and unify communication, making it coherent and efficient across messages, interfaces, visuals, product pages, documentation, translations and tutorials. Structure and unify communication, making it coherent and efficient across messages, interfaces, visuals, product pages, documentation, translations and tutorials. Official female mascot and optional male avatar, with four archived visual studies.
 
 - [Character gallery and complete profiles](https://bizc0m.github.io/NeuroForge/characters/dame-francoise/)
 - [Versioned character sheet](docs/characters/dame-francoise/PROFILE.md)

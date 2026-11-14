@@ -4,7 +4,7 @@
 
 Personnage fictif adulte et mascotte officielle du projet de structuration et d’unification de la communication NeuroForge. Identité et dernière direction visuelle approuvées par l’utilisateur ; raccordement aux applications non réalisé par cette fiche. Aucun dépôt n’est renommé par ce document.
 
-![Dame Françoise de Sales, mascotte officielle](assets/dame-francoise-approved.png)
+![Dame Françoise de Sales, mascotte officielle](assets/dame-francoise-savoie-v2.png)
 
 ## 1. Identité et rôle
 
@@ -54,7 +54,7 @@ Le nom renvoie à **François de Sales**, patron des écrivains et des journalis
 - Blonde, cheveux ondulés, lunettes fines, taches de rousseur, regard chaleureux et sourire assuré.
 - Silhouette féminine adulte ; esthétique pinup contemporaine, élégante et entièrement habillée.
 - Chemisier noir ajusté, taille marquée, empiècement crème discret ; dernière variante approuvée sans voile ni habit monastique.
-- Ruban rouge avec croix blanche, rappel visuel de la Savoie.
+- Ruban rouge portant un petit écu de la maison de Savoie : **de gueules à la croix d’argent**, croix blanche traversante atteignant les quatre bords du champ rouge. La croix blanche isolée des premiers essais est corrigée ; aucun drapeau suisse voulu. [Référence héraldique — Sigilla / IRHT-CNRS](https://sigilla.irht.cnrs.fr/151773).
 - Croix chrétienne et chapelet vert terminal CRT ; cette couleur relève de la charte numérique fictive.
 - Médaillon circulaire bordé de vert, tête dépassant du cadre, extérieur transparent.
 - Fond de vitraux sobres cobalt, rubis et ambre ; symboles de connaissance, réseau et traduction.
@@ -88,7 +88,7 @@ Exemples **proposés**, non citations historiques :
 
 **François, dit le Passeur** — nom de travail proposé, personnage fictif adulte d’environ 38 ans. Variante utilisateur, non remplacement de la mascotte officielle ; il ne représente pas le saint historique.
 
-![François, dit le Passeur — proposition d’avatar alternatif](assets/francois-passeur-proposal.png)
+![François, dit le Passeur — proposition d’avatar alternatif](assets/francois-passeur-savoie-v2.png)
 
 Catholique, intelligent, courageux, loyal, protecteur et investi. Il exprime sa force par la patience, la responsabilité et la capacité à aider, sans domination. Humble et chaleureux, il vérifie ses sources et facilite l’autonomie. Son élégance et son attrait répondent à la même exigence graphique que ceux de Dame Françoise.
 
@@ -116,8 +116,8 @@ Calibrer chaque pose avec repère de main, orientation du regard et limites de c
 
 ## 10. Ressources, droits et versionnement
 
-- `assets/dame-francoise-approved.png` : dernier visuel féminin approuvé.
-- `assets/francois-passeur-proposal.png` : première proposition masculine à valider.
+- `assets/dame-francoise-savoie-v2.png` : dernier visuel féminin approuvé.
+- `assets/francois-passeur-savoie-v2.png` : première proposition masculine à valider.
 - `manifest.json` : identifiants, statut, caractéristiques et empreintes des exports.
 - `verification.json` : contrôles de fichiers et de références locales ; pas un test de produit.
 
@@ -138,3 +138,7 @@ KindWare reste une invitation en cours de définition, pas une nouvelle licence 
 ## 12. Description courte EN
 
 **Dame Françoise de Sales** is a fictional adult Catholic communication guide and the project's official female mascot. Inspired by the Salesian tradition and rooted in Annecy, her mission is to structure and unify communication, making it coherent and efficient across interfaces, product pages, documentation, translations, visuals and tutorials. Documentation is one means, not the entire mission. Intelligent, precise, warm and confidently glamorous, she verifies sources, acknowledges uncertainty and helps people become independent. Her contemporary black outfit, red Savoy ribbon, green cross and rosary accompany a process-mapping tablet. The stained-glass setting is an artistic interpretation, not an official representation of a religious community. An optional fictional male counterpart, François the Guide, is proposed for users who prefer him. Neither character represents Saint Francis de Sales or the Church. The artwork does not demonstrate a functioning product integration.
+
+### Correction héraldique
+
+Les fichiers initiaux sont conservés sans écrasement. Les versions `savoie-v2` ajoutent l’écu simple vérifié ; les anciennes recherches peuvent encore contenir un motif approximatif. Le SVG de référence est fourni séparément. La source héraldique ne constitue pas une licence globale sur les illustrations.
