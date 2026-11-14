@@ -1,0 +1,85 @@
+{
+  "noJavaScriptOriginalOpens": true,
+  "keyboardEnterOpens": true,
+  "passed": true,
+  "synthetic": true,
+  "widths": [
+    {
+      "width": 320,
+      "portraits": [
+        {
+          "w": 132,
+          "h": 166.109375
+        },
+        {
+          "w": 132,
+          "h": 166.109375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "portraits": [
+        {
+          "w": 167,
+          "h": 210.15625
+        },
+        {
+          "w": 167,
+          "h": 210.15625
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "portraits": [
+        {
+          "w": 349,
+          "h": 439.203125
+        },
+        {
+          "w": 349,
+          "h": 439.203125
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "portraits": [
+        {
+          "w": 495,
+          "h": 622.953125
+        },
+        {
+          "w": 495,
+          "h": 622.953125
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "portraits": [
+        {
+          "w": 495,
+          "h": 622.953125
+        },
+        {
+          "w": 495,
+          "h": 622.953125
+        }
+      ]
+    }
+  ],
+  "fourPopupVariants": true,
+  "twoPortraitPopups": true,
+  "escapeCloses": true,
+  "focusRestored": true,
+  "pngDownload": true,
+  "missingImageFeedback": true,
+  "brokenDownloadDisabled": true,
+  "delayedRequestDoesNotOverwrite": true,
+  "consoleErrors": [],
+  "originalDisplayBytes": 13859098,
+  "optimizedDisplayBytes": 619358,
+  "runtimeProductValidation": false
+}

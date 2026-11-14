@@ -1,0 +1,67 @@
+{
+  "encoder": "Chromium canvas WebP",
+  "quality": 0.88,
+  "originalFilesPreserved": true,
+  "records": [
+    {
+      "original": "assets/dame-francoise-communication-v3.png",
+      "preview": "assets/dame-francoise-communication-v3-preview.webp",
+      "width": 960,
+      "height": 1208,
+      "originalBytes": 2115810,
+      "previewBytes": 232660,
+      "originalSha256": "6fbddb3777681be50eb625a5b77373ee54be6eedba7419bb3a8ce47babffe1a8",
+      "previewSha256": "fd3535bc2ab4e605db4e67ee8b1e1dc21e331d6b0e5be4025d1213efe1002326"
+    },
+    {
+      "original": "assets/francois-passeur-communication-v3.png",
+      "preview": "assets/francois-passeur-communication-v3-preview.webp",
+      "width": 960,
+      "height": 1208,
+      "originalBytes": 2022899,
+      "previewBytes": 199200,
+      "originalSha256": "3fd9387771a1a1fdde71731314c9f6af7cad1c191b0b6989773b151026f0977f",
+      "previewSha256": "fa8d82c5998657e2d5270505b62afccbc8b261c8433477ae84217ff52a73eb12"
+    },
+    {
+      "original": "assets/variante-01.png",
+      "preview": "assets/variante-01-preview.webp",
+      "width": 320,
+      "height": 403,
+      "originalBytes": 2366747,
+      "previewBytes": 50488,
+      "originalSha256": "fce38d042f5c42ac7e7c1295a8a1a40098a71067287682c29cef776f3ca8f5de",
+      "previewSha256": "35b87e559c4e614adfb9078e3f927df1438edb84523966cd9cd75fe038a9139f"
+    },
+    {
+      "original": "assets/variante-02.png",
+      "preview": "assets/variante-02-preview.webp",
+      "width": 320,
+      "height": 403,
+      "originalBytes": 2303414,
+      "previewBytes": 47064,
+      "originalSha256": "e23f56e7049264e4f5d647134e221c6f6d27405a577c8ac585a5ef0f5d3f4335",
+      "previewSha256": "4bc825dcab23915fb272286a47287b4026882f2c41500a66dd68b8b8d9b8af76"
+    },
+    {
+      "original": "assets/variante-03.png",
+      "preview": "assets/variante-03-preview.webp",
+      "width": 320,
+      "height": 403,
+      "originalBytes": 2274093,
+      "previewBytes": 45230,
+      "originalSha256": "2ddb51bcc05086e5ec88e80bb0b95b0dfd56ec1b739be74dcad1e2475d48df3a",
+      "previewSha256": "1fb75b961c5f27c511d096cbeb402bc7382fec5d70907291abccd8948614d710"
+    },
+    {
+      "original": "assets/variante-04.png",
+      "preview": "assets/variante-04-preview.webp",
+      "width": 320,
+      "height": 480,
+      "originalBytes": 2776135,
+      "previewBytes": 44716,
+      "originalSha256": "b34beea06b676b73ef5b5367b61cc6bbd61d1b0b2a1a78d0cf7dcc629e5fb772",
+      "previewSha256": "61776214d511fbf78f676edeeb27217bdc911b96f1763e57da03401d4a2c9e89"
+    }
+  ]
+}
