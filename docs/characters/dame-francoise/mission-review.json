@@ -1,0 +1,13 @@
+{
+  "missionCorrected": true,
+  "profileCopiesEqual": true,
+  "approvedPersonalityPreservedVerbatim": true,
+  "thumbnailsDeferred": 4,
+  "scope": "Mission and gallery content only; no product runtime integration",
+  "remaining": [
+    "Merge approval before Pages publication",
+    "Male avatar approval",
+    "13 language list",
+    "Runtime integration"
+  ]
+}

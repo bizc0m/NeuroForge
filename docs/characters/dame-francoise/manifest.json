@@ -40,5 +40,26 @@
     "Pose calibration",
     "13 language list",
     "Product integration"
+  ],
+  "mission": {
+    "fr": "Structurer la communication, l’unifier, la rendre cohérente et efficiente.",
+    "en": "Structure and unify communication, making it coherent and efficient."
+  },
+  "scope": [
+    "messages",
+    "interfaces",
+    "visuals",
+    "avatars",
+    "icons",
+    "About",
+    "documentation",
+    "README",
+    "GitHub Pages",
+    "SEO",
+    "localization",
+    "tutorials",
+    "Combos",
+    "Katas",
+    "contributions"
   ]
 }
